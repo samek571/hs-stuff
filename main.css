@@ -1,0 +1,34 @@
+.kruh {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 4px;
+}
+
+
+.riadok1 .kruh {
+  background-color: red;
+}
+
+.riadok2 .kruh {
+  background-color: green;
+}
+
+.riadok3 .kruh {
+  background-color: blue;
+}
+
+.riadok1{
+  display: flex;
+  justify-content: left;
+}
+
+.riadok2{
+  display: flex;
+  justify-content: center;
+}
+
+.riadok3{
+  display: flex;
+  justify-content: right;
+}
